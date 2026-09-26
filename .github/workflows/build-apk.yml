@@ -14,7 +14,7 @@ jobs:
       - name: Extract project
         run: |
           mkdir project
-          unzip -q hesabdari_omr_shah_mohammadi_v2_clean.zip -d project
+          unzip -q *.zip -d project
 
       - name: Set up Java
         uses: actions/setup-java@v4
